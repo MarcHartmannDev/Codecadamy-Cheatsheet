@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>CSS Positions</title>
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <h1>CSS Positions</h1>
+        </div>
+    </header>
+    <main>
+        <h1>A small guide to better understand Box positioning in CSS</h1>
+        <div class="description">
+            <p>The CSS property <span>"position"</span> can be used to position your HTML Element or <span>"Box"</span> in your document wherever you want it to be.</p>
+        </div>
+        <div class="table">
+            <h2>Position</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="left bottom">Value</th>
+                        <th class="bottom">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="left bottom-light">static</td>
+                        <td class="bottom-light desc">Standard Value. Box is in its porposed position in the general document flow</td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom-light">relative</td>
+                        <td class="bottom-light desc">Box can be moved relative from its original position in the document flow<br>can overlap other boxes</td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom-light">absolute</td>
+                        <td class="bottom-light desc">Box is removed from the document flow and can be moved freely.<br>can overlap other boxes</td>
+                    </tr>
+                    <tr>
+                        <td class="left bottom-light">sticky</td>
+                        <td class="bottom-light desc">Box can be moved relative from its original position<br>can be fixed to a position wehn out of viewport</td>
+                    </tr>
+                    <tr>
+                        <td class="left">fixed</td>
+                        <td class="desc">Box is removed from the document flow and can positioned fix (even when scrolling the page)<br>can overlap other boxes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>

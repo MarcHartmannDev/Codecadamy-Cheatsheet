@@ -1,0 +1,100 @@
+* {
+    background-color: rgb(228, 228, 228);
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    height: 10rem;
+    background-image: url('./images/brand-positioning-strategy.png');
+    background-position: 50% 20%;
+    background-size: 70rem;
+    background-color: hsl(0, 0%, 80%);
+    position: relative;
+    box-shadow: 0 1px 5px black;
+}
+
+header h1 {
+    text-align: center;
+    position: relative;
+    left: 5%;
+    width: 15vw;
+    min-width: 100px;
+    font-size: min(max(16px, 3.5vw), 40px);
+    color: hsl(9, 80%, 53%);
+    background-color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    border-radius: 15px;
+    box-shadow: 1px 2px 10px black;
+    overflow: hidden;
+}
+
+main h1 {
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(9, 80%, 53%);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.description {
+    padding: 20px 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.table {
+    position: relative;
+    top: 50px;
+    text-align: left;
+}
+
+.table h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.table table {
+    margin: 0 auto;
+    padding: 500px;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+.table td,
+th {
+    padding: 20px;
+}
+
+.left {
+    border-right: 4px solid rgb(228, 228, 228);
+    background-color: hsl(32, 100%, 90%);
+    text-align: center;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.bottom {
+    border-bottom: 4px solid rgb(228, 228, 228);
+    background-color: hsl(32, 100%, 90%);
+    border-radius: 15px;
+}
+
+.bottom-light {
+    border-bottom: 2px solid rgb(228, 228, 228);
+}
+
+.desc {
+    background-color: hsl(0, 0%, 80%);
+    border-radius: 15px;
+}
+
+span {
+    font-weight: 600;
+    color: hsl(9, 80%, 53%);
+    text-decoration: underline;
+}
